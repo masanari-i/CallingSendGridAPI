@@ -18,8 +18,6 @@ public class MailCallingService
     private String title = "title";
     private Content content = new Content("text/plain", "Hello.")
 
-
-
 	public MailCallingService()
 	{
 		sendGrid = new SendGrid(apiKey);
